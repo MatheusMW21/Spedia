@@ -1,0 +1,23 @@
+article {
+    display: grid;
+    grid-template-columns: 1fr 0.5in [start] 7.5in [end] 0.5in 1fr;
+
+    height: 120vh;
+
+    padding: 2.0in  0;
+}
+
+article * {grid-column: start / end; }
+
+@media (max-width: 8.5in) {
+    article { grid-template-columns: 1fr 0.5% [start] 90% [end] 0.5% 1fr;}
+} 
+
+#contato {
+    display: grid;
+    grid-template-columns: 1fr 0.5in [start] 7.5in [end] 0.5in 1fr;
+
+    height: 30vh;
+
+    padding: 2.0in  0;
+}

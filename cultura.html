@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Noticia+Text&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Limelight&family=Noticia+Text&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="barra-de-leitura.js"></script>
+    <link rel="stylesheet" href="article.css">
+    <link rel="stylesheet" href="debug.css">
+    <link rel="stylesheet" href="reset.css">    
+    <title>Cultura de São Paulo</title>
+
+    <style>
+        span { font-size: 200%; font-style: italic; color: black; }
+        h2, p { margin-bottom: 2.4;}
+        h1 { font: 700 2.5rem/1.2 "Limelight"; color: rgb(0, 0, 0); }
+        h2 { font: 700 1.5rem/1.2 "Limelight"; color: rgb(0, 0, 0); }
+        p { font: 700 1.0rem/1.2 "Noticia Text"; color: rgb(0, 0, 0); }
+        li { font:700 1.0rem/1.2 "Limelight"; color: rgb(0, 0, 0);}
+
+        @media (max-width: 7.5in) { :root {font-size: 18px;}}
+        @media (max-width: 5.0in) { :root {font-size: 16px;}}
+
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="check">
+        <label id="icone" for="check"><img src="../imagens/icone.png"></label>
+        <div class="progress-container">
+            <div class="progress-bar" id="js-barraDeLeitura"></div>
+        </div>
+        <div class="header page">
+            <div class="header-left">
+                <a href="./home-page.html"><h1 class="logo">SPédia e Sustentabilidade</h1></a>
+                <img class="spedia" src="../imagens/spedia2.jpg">
+            </div>
+        </div>
+        <div class="barra">
+            <nav class="submenu">
+                <a href="home-page.html"><div class="link">Home</div></a>
+                <a href="Contato.html"><div class="link">Contato</div></a>
+                <a href="Sobre.html"><div class="link">Sobre</div></a>
+           </nav>
+        </div>
+       
+        <div class="barra1">
+            <nav class="menu">
+                <a href="historia.html"><div class="link1">História de SP</div></a>
+                <a href="economia.html"><div class="link1">Economia</div></a>
+                <a href="cultura.html"><div class="link1">Cultura</div></a> 
+                <a href="vantagens.html"><div class="link1">Vantagens</div></a>
+                <a href="desvantagens.html"><div class="link1">Desvantagens</div></a>
+                <a href="night-out.html"><div class="link1">Night Out</div></a>
+
+           </nav>
+        </div>
+    </header>
+        <article>
+            <h1>Cultura e Sustentabilidade</h1>
+            <time datetime="25-05-2022">25 de Maio de 2022</time>
+            <p>
+              <span>O</span> estado de São Paulo é originalmente influenciado por culturas português, italiana e 
+                indígena. Sendo considerada por muitos a cultura mais influente do Brasil. Isso se deve
+                pelo fato da grande diversidade encontrada nas cidades e bairros de São Paulo.<br><br>
+            </p>
+            <h2><strong>A Música de SP</strong></h2> 
+            <p>
+                <span>O</span> estado de São Paulo é rico em música e dança. Em SP tem uma das melhores casas de espetáculos,
+                a Sala São Paulo, considerado por grandes músicos e críticos como um dos melhores do mundo. A cidade,
+                foi a origem de muitas bandas de rock dos anos 70 e 80, como Mutantes, Tom Zé, Caetano Veloso, Ultraje a Rigor, 
+                entre outros. Músicas com letras muito acentuadas sobre a ditadura e o governo militar, sobre política e
+                desavenças do estado. Além disso, foi o berço de algumas bandas de humor, um grande exemplo é a banda Mamonas 
+                Assassinas. Por ser uma cidade que está sempre acordada, com a rotina corriqueira, o município é um grande
+                palco para surgimento de novas músicas e movimentos artísticos, influente em gêneros musicais, como o rock,
+                hip-hop, eletrônica, música erudita etc.<br><br>
+            </p>
+            <figure class="size-1">
+                <img src="../imagens/sala-sp.jpg"><br><br><br>
+            </figure>
+            <h2><strong>Literatura de SP</strong></h2>>
+            <p>
+                <span>A</span> literatura paulista tem origem na chegada dos jesuítas ao Brasil, que escreviam relatórios das terras
+                encontradas, dos povos indígenas e mandavam direto para coroa portuguesa. Durante o século XIX, Álvares
+                de Azevedo foi o grande nome da fase ultrarromântica do Romantismo na literatura. É importante ressaltar
+                a importância da Semana da Arte Moderna, em 1922, que possibilitou a ascensão de muitos escritos e artistas
+                da época, como: Oswaldo de Andrade e Mário de Andrade. Confira abaixo a primeira e a principal biblioteca
+                pública de São Paulo:<br><br>
+            </p>
+            <figure class="size-1">
+                <img src="../imagens/biblioteca-mario-andrade.png"><br><br><br>
+            </figure>
+            <h2><strong>Museus de SP</strong></h2>
+            <p>
+                <span>C</span>omo preservar a história e a cultura de uma das maiores cidades do país? Isso mesmo, os museus de
+                São Paulo são os mais completos e prestigiados do Brasil, contendo como o seu principal o MASP, um 
+                dos principais do continente. Aqui temos o Museu da Língua Portuguesa, Museu do Ipiranga, a Pinacoteca 
+                do Estado de São Paulo, Museu do Futebol, Museu da Semana da Arte Moderna, entre outros. Você pode conferir 
+                uma enorme lista com os museus que trazem mais transparência ao estado, respeitando sua história e seu contexto.<br><br> 
+            </p>
+            <figure class="size-1">
+                <img src="../imagens/masp.jpg"><br><br>
+                <img src="../imagens/museu-da-lingua-portuguesa.jpg"><br><br><br>
+            </figure>
+            <h2><strong>Esportes em SP</strong></h2>
+            <p>
+                <span>A</span> cidade é sede de muitos esportes e campeonatos do Brasil e do Mundo. Temos como grande exemplo, 
+                o Grande Prêmio do Brasil de Fórmula 1 sediada no autódromo de Interlagos. Podemos citar também 
+                a Corrida São Silvestre, a Copa do Mundo de 1950, o Mundial de Clubes de 2000 e os Jogos Pan-Americanos
+                em 1963. Um dos 3 maiores times do Brasil tem origem paulista, sendo eles: São Paulo FC, Corinthians e 
+                Palmeiras, com seus respectivos estádios, Morumbi, Arena Corinthians e Allianz Parque. É interessante 
+                ressaltar que grandes atletas brasileiros são paulistas, como: Ayrton Senna, Gabriel Jesus, Felipe Massa etc.<br><br>
+            </p>
+            <figure class="size-1">
+                <img src="../imagens/estadio_do_morumbi_sao_paulo.jpg"><br><br><br>
+            </figure>
+            <h2>Sustenbilidade Cultural</h2>
+            <p>
+                <span>A</span> preservação do meio-ambiente é muito importante para nossas vidas, e o estado de São Paulo, como 
+                o maior influente cultural do Brasil, tem seu papel realizando eventos, festivais e exposições sobre a
+                conscientização da sustentabilidade e sua preservação. A cultura é extremamente importante para
+                o desenvolvimento sustentável, sendo possível nos mostrar com mais clareza como utilizamos nossos 
+                recursos naturais e como agimos diante ao meio-ambiente. Além disso, ajuda-nos a compreender como 
+                construir um mundo mais sustentável.<br><br><br>
+            </p>
+
+
+          
+
+            
+        </article>
+        <a id="link-topo" href="#">&#9650;</a>
+</body>
+</html>
